@@ -656,7 +656,7 @@ class Camping {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['wood'],
       web: []
     };
     
@@ -672,15 +672,15 @@ class Camping {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['disaster'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['fire'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['predict'];
           break;
       }
     }
